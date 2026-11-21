@@ -464,114 +464,114 @@ document.addEventListener('DOMContentLoaded', function () {
 	initGoodsCarousels();
 
 	// map
-	// const maps = document.querySelectorAll('.where-buy__map');
+	const maps = document.querySelectorAll('.where-buy__map');
 
-	// maps.forEach(function (map) {
-	// 	const popup = map.querySelector('.where-buy__popup');
-	// 	const popupRegionName = map.querySelector('.where-buy__region-name');
-	// 	const popupRegionStore = map.querySelector('.where-buy__region-store');
-	// 	const mapLink = map.querySelector('.where-buy__link-map');
-	// 	const regions = map.querySelectorAll('.region[data-region]');
+	maps.forEach(function (map) {
+		const popup = map.querySelector('.where-buy__popup');
+		const popupRegionName = map.querySelector('.where-buy__region-name');
+		const popupRegionStore = map.querySelector('.where-buy__region-store');
+		const mapLink = map.querySelector('.where-buy__link-map');
+		const regions = map.querySelectorAll('.region[data-region]');
 
-	// 	if (!popup || !regions.length) return;
+		if (!popup || !regions.length) return;
 
-	// 	const baseUrl = 'gde-kupit?region_id=';
-	// 	let activeRegion = null;
+		const baseUrl = 'gde-kupit?region_id=';
+		let activeRegion = null;
 
-	// 	function getRegionUrl(region) {
-	// 		return baseUrl + region.dataset.region;
-	// 	}
+		function getRegionUrl(region) {
+			return baseUrl + region.dataset.region;
+		}
 
-	// 	function movePopup(event) {
-	// 		const mapRect = map.getBoundingClientRect();
-	// 		const popupRect = popup.getBoundingClientRect();
+		function movePopup(event) {
+			const mapRect = map.getBoundingClientRect();
+			const popupRect = popup.getBoundingClientRect();
 
-	// 		let x = event.clientX - mapRect.left + 13;
-	// 		let y = event.clientY - mapRect.top + 13;
+			let x = event.clientX - mapRect.left + 13;
+			let y = event.clientY - mapRect.top + 13;
 
-	// 		const maxX = mapRect.width - popupRect.width - 8;
-	// 		const maxY = mapRect.height - popupRect.height - 8;
+			const maxX = mapRect.width - popupRect.width - 8;
+			const maxY = mapRect.height - popupRect.height - 8;
 
-	// 		if (x > maxX) {
-	// 			x = event.clientX - mapRect.left - popupRect.width - 13;
-	// 		}
+			if (x > maxX) {
+				x = event.clientX - mapRect.left - popupRect.width - 13;
+			}
 
-	// 		if (y > maxY) {
-	// 			y = event.clientY - mapRect.top - popupRect.height - 13;
-	// 		}
+			if (y > maxY) {
+				y = event.clientY - mapRect.top - popupRect.height - 13;
+			}
 
-	// 		x = Math.max(8, x);
-	// 		y = Math.max(8, y);
+			x = Math.max(8, x);
+			y = Math.max(8, y);
 
-	// 		popup.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
-	// 	}
+			popup.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+		}
 
-	// 	function showPopup(region, event) {
-	// 		const regionName = region.dataset.name || '';
-	// 		const regionStore = region.dataset.store || '';
+		function showPopup(region, event) {
+			const regionName = region.dataset.name || '';
+			const regionStore = region.dataset.store || '';
 
-	// 		activeRegion = region;
-	// 		region.classList.add('is-active');
+			activeRegion = region;
+			region.classList.add('is-active');
 
-	// 		if (popupRegionName) {
-	// 			popupRegionName.textContent = regionName;
-	// 		}
+			if (popupRegionName) {
+				popupRegionName.textContent = regionName;
+			}
 
-	// 		if (popupRegionStore) {
-	// 			popupRegionStore.textContent = regionStore;
-	// 			popupRegionStore.style.display = regionStore ? '' : 'none';
-	// 		}
+			if (popupRegionStore) {
+				popupRegionStore.textContent = regionStore;
+				popupRegionStore.style.display = regionStore ? '' : 'none';
+			}
 
-	// 		popup.setAttribute('href', getRegionUrl(region));
-	// 		popup.classList.add('_show');
+			popup.setAttribute('href', getRegionUrl(region));
+			popup.classList.add('_show');
 
-	// 		movePopup(event);
-	// 	}
+			movePopup(event);
+		}
 
-	// 	function hidePopup(region) {
-	// 		if (region) {
-	// 			region.classList.remove('is-active');
-	// 		}
+		function hidePopup(region) {
+			if (region) {
+				region.classList.remove('is-active');
+			}
 
-	// 		activeRegion = null;
-	// 		popup.classList.remove('_show');
-	// 		popup.style.transform = 'translate(-9999px, -9999px)';
-	// 	}
+			activeRegion = null;
+			popup.classList.remove('_show');
+			popup.style.transform = 'translate(-9999px, -9999px)';
+		}
 
-	// 	regions.forEach(function (region) {
-	// 		region.addEventListener('mouseenter', function (event) {
-	// 			showPopup(region, event);
-	// 		});
+		regions.forEach(function (region) {
+			region.addEventListener('mouseenter', function (event) {
+				showPopup(region, event);
+			});
 
-	// 		region.addEventListener('mousemove', function (event) {
-	// 			if (activeRegion === region) {
-	// 				movePopup(event);
-	// 			}
-	// 		});
+			region.addEventListener('mousemove', function (event) {
+				if (activeRegion === region) {
+					movePopup(event);
+				}
+			});
 
-	// 		region.addEventListener('mouseleave', function () {
-	// 			hidePopup(region);
-	// 		});
+			region.addEventListener('mouseleave', function () {
+				hidePopup(region);
+			});
 
-	// 		region.addEventListener('click', function (event) {
-	// 			event.preventDefault();
-	// 			window.location.href = getRegionUrl(region);
-	// 		});
-	// 	});
+			region.addEventListener('click', function (event) {
+				event.preventDefault();
+				window.location.href = getRegionUrl(region);
+			});
+		});
 
-	// 	if (mapLink) {
-	// 		mapLink.addEventListener('click', function (event) {
-	// 			const region = event.target.closest('.region[data-region]');
+		if (mapLink) {
+			mapLink.addEventListener('click', function (event) {
+				const region = event.target.closest('.region[data-region]');
 
-	// 			event.preventDefault();
+				event.preventDefault();
 
-	// 			if (region) {
-	// 				window.location.href = getRegionUrl(region);
-	// 			}
-	// 		});
-	// 	}
-	// });
-	// initWhereBuyMap();
+				if (region) {
+					window.location.href = getRegionUrl(region);
+				}
+			});
+		}
+	});
+	initWhereBuyMap();
 
 	// carousel wirh diferens blocks
 	function initMediaCarousels() {
@@ -1212,4 +1212,11 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	initCart();
+
+	// VillartecCart.add({
+	// id: 'pa-1462',
+	// name: 'СЕКАТОР АККУМУЛЯТОРНЫЙ PA 1462',
+	// price: 7490,
+	// });
+	// VillartecCart.open();
 });

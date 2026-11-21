@@ -1,0 +1,2813 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+		/>
+		<link href="./css/global-styles.css" rel="stylesheet" />
+		<link href="./css/pages/index.css" rel="stylesheet" />
+
+		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+		<script src="./scripts/main.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__mobile-menu">
+				<div class="page-body header--mobile-menu-body">
+					<div class="mobile-menu__search search">
+						<div class="input-field header__search-block">
+							<form action="" class="js-search">
+								<input
+									class="header-search__input js-search-input"
+									type="search"
+									placeholder="Поиск"
+									autocomplete="off"
+								/>
+								<button
+									class="header-search__button"
+									type="submit"
+									aria-label="Search"
+								>
+									<svg
+										width="16"
+										height="16"
+										viewBox="0 0 24 24"
+										aria-hidden="true"
+									>
+										<path
+											d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+										/>
+									</svg>
+								</button>
+								<div class="header-search__dropdown js-search-dropdown"></div>
+							</form>
+						</div>
+					</div>
+					<nav class="mobile-menu-catalog">
+						<ul class="mobile-menu-catalog__list">
+							<!-- 1. Каталог -->
+							<li class="mobile-menu-catalog__item js-catalog-item">
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-1 js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title">Каталог</span>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<div class="mobile-menu-catalog__columns">
+											<ul
+												class="mobile-menu-catalog__sublist mobile-menu-catalog__sublist--left"
+											>
+												<li
+													class="mobile-menu-catalog__subitem js-catalog-item"
+												>
+													<button
+														class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 js-catalog-trigger"
+														type="button"
+														aria-expanded="false"
+													>
+														<span class="mobile-menu-catalog__title"
+															>Аккумуляторная техника</span
+														>
+														<span
+															class="mobile-menu-catalog__arrow"
+															aria-hidden="true"
+														></span>
+													</button>
+
+													<div
+														class="mobile-menu-catalog__panel js-catalog-panel"
+													>
+														<div class="mobile-menu-catalog__panel-inner">
+															<ul class="mobile-menu-catalog__third-list">
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Аккумуляторные пилы
+																	</button>
+																</li>
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Аккумуляторные триммеры
+																	</button>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</li>
+
+												<li
+													class="mobile-menu-catalog__subitem js-catalog-item"
+												>
+													<button
+														class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 js-catalog-trigger"
+														type="button"
+														aria-expanded="false"
+													>
+														<span class="mobile-menu-catalog__title"
+															>Газонокосилки</span
+														>
+														<span
+															class="mobile-menu-catalog__arrow"
+															aria-hidden="true"
+														></span>
+													</button>
+
+													<div
+														class="mobile-menu-catalog__panel js-catalog-panel"
+													>
+														<div class="mobile-menu-catalog__panel-inner">
+															<ul class="mobile-menu-catalog__third-list">
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Бензиновые газонокосилки
+																	</button>
+																</li>
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Аккумуляторные газонокосилки
+																	</button>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</li>
+											</ul>
+
+											<ul
+												class="mobile-menu-catalog__sublist mobile-menu-catalog__sublist--right"
+											>
+												<li
+													class="mobile-menu-catalog__subitem js-catalog-item"
+												>
+													<button
+														class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 js-catalog-trigger"
+														type="button"
+														aria-expanded="false"
+													>
+														<span class="mobile-menu-catalog__title"
+															>Цепные пилы</span
+														>
+														<span
+															class="mobile-menu-catalog__arrow"
+															aria-hidden="true"
+														></span>
+													</button>
+
+													<div
+														class="mobile-menu-catalog__panel js-catalog-panel"
+													>
+														<div class="mobile-menu-catalog__panel-inner">
+															<ul class="mobile-menu-catalog__third-list">
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Бензопилы
+																	</button>
+																</li>
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Электропилы
+																	</button>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</li>
+
+												<li
+													class="mobile-menu-catalog__subitem js-catalog-item"
+												>
+													<button
+														class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 js-catalog-trigger"
+														type="button"
+														aria-expanded="false"
+													>
+														<span class="mobile-menu-catalog__title"
+															>Инструменты</span
+														>
+														<span
+															class="mobile-menu-catalog__arrow"
+															aria-hidden="true"
+														></span>
+													</button>
+
+													<div
+														class="mobile-menu-catalog__panel js-catalog-panel"
+													>
+														<div class="mobile-menu-catalog__panel-inner">
+															<ul class="mobile-menu-catalog__third-list">
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Ножницы и секаторы
+																	</button>
+																</li>
+																<li class="mobile-menu-catalog__third-item">
+																	<button
+																		class="mobile-menu-catalog__leaf"
+																		type="button"
+																	>
+																		Мотобуры
+																	</button>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<!-- 2. Акции -->
+							<li class="mobile-menu-catalog__item">
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-1 mobile-menu-catalog__trigger--center"
+									type="button"
+								>
+									<span class="mobile-menu-catalog__title">Акции</span>
+								</button>
+							</li>
+
+							<!-- 3. Где купить -->
+							<li class="mobile-menu-catalog__item">
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-1 mobile-menu-catalog__trigger--center"
+									type="button"
+								>
+									<span class="mobile-menu-catalog__title">Где купить</span>
+								</button>
+							</li>
+
+							<!-- 4. Новости и статьи -->
+							<li class="mobile-menu-catalog__item">
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-1 mobile-menu-catalog__trigger--center"
+									type="button"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Новости и статьи</span
+									>
+								</button>
+							</li>
+
+							<!-- 5. Гарантия и сервис -->
+							<li class="mobile-menu-catalog__item">
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-1 mobile-menu-catalog__trigger--center"
+									type="button"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Гарантия и сервис</span
+									>
+								</button>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="page-body header--body">
+				<nav class="header__menu header--menu-left">
+					<ul>
+						<li class="header-catalog-item">
+							<a class="header-catalog__link" href="#">
+								Каталог
+								<span
+									class="mobile-menu-catalog__arrow header-catalog__arrow"
+									aria-hidden="true"
+								></span>
+							</a>
+
+							<div class="header-catalog-dropdown">
+								<div class="page-body header-catalog-dropdown__inner">
+									<ul class="header-catalog-dropdown__list">
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Аккумуляторная техника</span>
+												<img src="./images/catalog/battery-tools.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Цепные пилы</span>
+												<img src="./images/catalog/chainsaws.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Мотокосы и триммеры</span>
+												<img src="./images/catalog/trimmers.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Газонокосилки</span>
+												<img src="./images/catalog/lawn-mowers.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Роботы-газонокосилки</span>
+												<img src="./images/catalog/robot-mowers.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Ножницы и секаторы</span>
+												<img src="./images/catalog/secateurs.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Воздуходувки</span>
+												<img src="./images/catalog/blowers.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Опрыскиватели</span>
+												<img
+													src="./images/catalog/battery-sprayers.png"
+													alt=""
+												/>
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Мотоблоки и культиваторы</span>
+												<img src="./images/catalog/cultivators.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Генераторы бензиновые</span>
+												<img src="./images/catalog/generators.png" alt="" />
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Строительные инструменты</span>
+												<img
+													src="./images/catalog/construction-tools.png"
+													alt=""
+												/>
+											</a>
+										</li>
+
+										<li>
+											<a class="header-catalog-dropdown__card" href="#">
+												<span>Снегоуборщики</span>
+												<img src="./images/catalog/snowblowers.png" alt="" />
+											</a>
+										</li>
+									</ul>
+
+									<a class="header-catalog-dropdown__all" href="#">
+										Все категории
+										<span aria-hidden="true">→</span>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li><a href="">Где купить</a></li>
+						<li><a href="">Акции</a></li>
+					</ul>
+				</nav>
+				<a
+					class="header__logo"
+					href="./index.html"
+					aria-label="Villartec homepage"
+				>
+					<svg class="header__logo" viewBox="0 0 200 17" aria-hidden="true">
+						<use href="#logo"></use>
+					</svg>
+				</a>
+				<nav class="header__menu header--menu-right">
+					<ul>
+						<li><a href="">Гарантия и сервис</a></li>
+						<li><a href="">Cтатьи</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__menu-search">
+					<div class="input-field header__search-block">
+						<form action="" class="js-search">
+							<input
+								class="header-search__input js-search-input"
+								type="search"
+								placeholder="Поиск"
+								autocomplete="off"
+							/>
+							<button
+								class="header-search__button"
+								type="submit"
+								aria-label="Search"
+							>
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 24 24"
+									aria-hidden="true"
+								>
+									<path
+										d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+								</svg>
+							</button>
+							<div class="header-search__dropdown js-search-dropdown"></div>
+						</form>
+					</div>
+				</div>
+
+				<button
+					class="header__btn-mobile-menu"
+					type="button"
+					aria-label="Open menu"
+				>
+					<svg
+						class="mobile-menu-btn__icon"
+						viewBox="0 0 100 100"
+						aria-hidden="true"
+					>
+						<path
+							class="mobile-menu-btn__line _top"
+							d="m 25,33 h 50 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -25"
+						/>
+						<path class="mobile-menu-btn__line _middle" d="m 25,50 h 50" />
+						<path
+							class="mobile-menu-btn__line _bottom"
+							d="m 75,67 h -50 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 25"
+						/>
+					</svg>
+				</button>
+			</div>
+		</header>
+		<main>
+			<section class="hero">
+				<div class="page-body hero__container">
+					<h1>villartec</h1>
+					<p>Надежный производитель качественной техники</p>
+					<button class="btn btn--transparent hero__btn">
+						<span>В каталог</span>
+					</button>
+				</div>
+				<video class="hero__video-background" muted loop playsinline>
+					<source
+						src="https://villartec.ru/image/video/FON.mp4"
+						type="video/mp4"
+					/>
+				</video>
+			</section>
+		</main>
+		<section class="catalog-main">
+			<div class="page-body catalog-main__container">
+				<ul class="catalog-main__list">
+					<li class="catalog-main__header">
+						<h2 class="catalog-main__title">
+							Более <span>1 000</span> товаров <br />
+							в 20 разделах
+						</h2>
+						<p class="catalog-main__text">
+							Получите полную информацию об интересующем товаре, а также
+							узнайте, где его можно купить в вашем городе
+						</p>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--wide catalog-card--battery"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Аккумуляторная техника</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/battery-tools.png"
+									alt="Аккумуляторная техника"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Аккумуляторная техника 14 вольт</a></li>
+								<li><a href="#">Аккумуляторная техника 20 вольт</a></li>
+								<li><a href="#">Аккумуляторная техника 40 вольт</a></li>
+								<li><a href="#">Аккумуляторная техника 62 вольта</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--chainsaws">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Цепные пилы</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/chainsaws.png"
+									alt="Цепные пилы"
+								/>
+							</div>
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Бензопилы</a></li>
+								<li><a href="#">Электропилы</a></li>
+								<li><a href="#">Аккумуляторные пилы</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--trimmers">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Мотокосы и триммеры</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/trimmers.png"
+									alt="Мотокосы и триммеры"
+								/>
+							</div>
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Бензиновые триммеры</a></li>
+								<li><a href="#">Электрические триммеры</a></li>
+								<li><a href="#">Аккумуляторные триммеры</a></li>
+								<li><a href="#">Комбисистема аккумуляторная</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--tractors">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Тракторы садовые</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/tractors.png"
+									alt="Тракторы садовые"
+								/>
+							</div>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--robot-mowers"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Роботы-газонокосилки</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/robot-mowers.png"
+									alt="Роботы-газонокосилки"
+								/>
+							</div>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--wide catalog-card--lawn-mowers"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Газонокосилки</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/lawn-mowers.png"
+									alt="Газонокосилки"
+								/>
+							</div>
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Газонокосилки бензиновые</a></li>
+								<li><a href="#">Газонокосилки аккумуляторные</a></li>
+								<li><a href="#">Газонокосилки электрические</a></li>
+								<li><a href="#">Аэраторы</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--secateurs">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Ножницы и секаторы</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/secateurs.png"
+									alt="Ножницы и секаторы"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Мотоножницы</a></li>
+								<li><a href="#">Секаторы</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--blowers">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Воздуходувки</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/blowers.png"
+									alt="Воздуходувки"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Воздуходувки бензиновые</a></li>
+								<li><a href="#">Воздуходувки аккумуляторные</a></li>
+								<li><a href="#">Воздуходувки электрические</a></li>
+							</ul>
+						</div>
+					</li>
+					<li
+						class="catalog-main__item catalog-card catalog-card--wide catalog-card--snowblowers"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Снегоуборщики</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/snowblowers.png"
+									alt="Снегоуборщики"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Снегоуборщики бензиновые</a></li>
+								<li><a href="#">Снегоуборщики аккумуляторные</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--sweepers">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Подметальные машины</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/sweepers.png"
+									alt="Подметальные машины"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Подметальные машины</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--garden-shredders"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Измельчители садовые</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/garden-shredders.png"
+									alt="Измельчители садовые"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Измельчители садовые</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--pole-pruners"
+					>
+						<div class="catalog__container">
+							<a class="catalog-card__title">Обрезчики</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/pole-pruners.png"
+									alt="Обрезчики"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Обрезчики аккумуляторные</a></li>
+								<li><a href="#">Обрезчики бензиновые</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--cultivators">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title"
+								>Мотоблоки и культиваторы</a
+							>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/cultivators.png"
+									alt="Мотоблоки и культиваторы"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Мотоблоки</a></li>
+								<li><a href="#">Культиваторы</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--generators">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Генераторы бензиновые</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/generators.png"
+									alt="Генераторы бензиновые"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Генераторы бензиновые</a></li>
+								<li><a href="#">Инверторные генераторы</a></li>
+								<li><a href="#">Сварочные генераторы</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--motor-pumps">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Мотопомпы</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/motor-pumps.png"
+									alt="Мотопомпы"
+								/>
+							</div>
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Мотопомпы</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--wide catalog-card--construction-tools"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title"
+								>Строительные инструменты</a
+							>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/construction-tools.png"
+									alt="Строительные инструменты"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Бензорезы</a></li>
+								<li><a href="#">Виброплиты</a></li>
+								<li><a href="#">Строительная техника</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--drill-mixers"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Дрели-миксеры</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/drill-mixers.png"
+									alt="Дрели-миксеры"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Дрели-миксеры</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--pressure-washers"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Мойки высокого давления</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/pressure-washers.png"
+									alt="Мойки высокого давления"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Мойки высокого давления</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li
+						class="catalog-main__item catalog-card catalog-card--wide catalog-card--battery-sprayers"
+					>
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">
+								Аккумуляторные ранцевые опрыскиватели
+							</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/battery-sprayers.png"
+									alt="Аккумуляторные ранцевые опрыскиватели"
+								/>
+							</div>
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Опрыскиватели аккумуляторные</a></li>
+								<li><a href="#">Опрыскиватели ранцевые</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--hand-tools">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">Ручные инструменты</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/hand-tools.png"
+									alt="Ручные инструменты"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Ручные инструменты</a></li>
+								<li><a href="#">Садовый инвентарь</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="catalog-main__item catalog-card catalog-card--accessories">
+						<div class="catalog__container">
+							<a href="" class="catalog-card__title">
+								Расходные материалы и аксессуары
+							</a>
+							<div class="catalog-card__image-wrap">
+								<img
+									class="catalog-card__image"
+									src="./images/catalog/accessories.png"
+									alt="Расходные материалы и аксессуары"
+								/>
+							</div>
+
+							<ul class="catalog-card__sublist">
+								<li><a href="#">Косильная гарнитура</a></li>
+								<li><a href="#">Пильная гарнитура</a></li>
+								<li><a href="#">Моторные масла</a></li>
+								<li><a href="#">Аксессуары</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="products-section products-section__news">
+			<div class="page-body">
+				<div class="products-section__title">Новинки</div>
+				<div
+					class="splide goods-carousel js-goods-carousel"
+					aria-label="Новинки"
+				>
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 572</h3>
+									<p class="goods-card__price">
+										<span class="goods-card__price-old">15 990</span>
+										17 990 р
+									</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-1.png"
+											alt="Бензопила SB 572"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>2.6 кВт / 3.5 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>54.5 см³</strong>
+										</li>
+										<li>
+											<span>Объём бензобака</span>
+											<strong>620 мл</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>5.5 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 402</h3>
+									<p class="goods-card__price">15 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-2.jpg"
+											alt="Бензопила SB 402"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>1.8 кВт / 2.45 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>40.2 см³</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>4.7 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 572</h3>
+									<p class="goods-card__price">17 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-1.png"
+											alt="Бензопила SB 572"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>2.6 кВт / 3.5 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>54.5 см³</strong>
+										</li>
+										<li>
+											<span>Объём бензобака</span>
+											<strong>620 мл</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>5.5 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 402</h3>
+									<p class="goods-card__price">15 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-2.jpg"
+											alt="Бензопила SB 402"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>1.8 кВт / 2.45 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>40.2 см³</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>4.7 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 572</h3>
+									<p class="goods-card__price">17 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-1.png"
+											alt="Бензопила SB 572"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>2.6 кВт / 3.5 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>54.5 см³</strong>
+										</li>
+										<li>
+											<span>Объём бензобака</span>
+											<strong>620 мл</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>5.5 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 402</h3>
+									<p class="goods-card__price">15 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-2.jpg"
+											alt="Бензопила SB 402"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>1.8 кВт / 2.45 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>40.2 см³</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>4.7 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+						</ul>
+					</div>
+
+					<div class="goods-carousel__controls">
+						<button
+							class="goods-carousel__arrow goods-carousel__arrow--prev js-goods-carousel-prev"
+							type="button"
+							aria-label="Previous slide"
+						></button>
+
+						<div class="goods-carousel__pagination-viewport">
+							<div
+								class="goods-carousel__pagination-track js-goods-carousel-pagination"
+							></div>
+						</div>
+
+						<button
+							class="goods-carousel__arrow goods-carousel__arrow--next js-goods-carousel-next"
+							type="button"
+							aria-label="Next slide"
+						></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="products-section products-section__news">
+			<div class="page-body">
+				<div class="products-section__title">Хиты сезона</div>
+				<div
+					class="splide goods-carousel js-goods-carousel"
+					aria-label="Хиты сезона"
+				>
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 025 Legend</h3>
+									<p class="goods-card__price">20 290 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-1.png"
+											alt="Бензопила SB 025 Legend"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>1.5 кВт / 2.0 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>25.4 см³</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>4.8 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 018 Legend</h3>
+									<p class="goods-card__price">16 290 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-3.png"
+											alt="Бензопила SB 018 Legend"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>1.3 кВт / 1.8 л.с.</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>4.2 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 402</h3>
+									<p class="goods-card__price">15 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-2.jpg"
+											alt="Бензопила SB 402"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>1.8 кВт / 2.45 л.с.</strong>
+										</li>
+										<li>
+											<span>Объём двигателя</span>
+											<strong>40.2 см³</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Набор</p>
+									<h3 class="goods-card__title">SB 025, 40 см. + комплект</h3>
+									<p class="goods-card__price">20 490 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-1.png"
+											alt="Набор SB 025"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Комплектация</span>
+											<strong>Пила + набор</strong>
+										</li>
+										<li>
+											<span>Шина</span>
+											<strong>40 см</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+
+							<li class="splide__slide">
+								<article class="goods-card">
+									<p class="goods-card__category">Бензопила</p>
+									<h3 class="goods-card__title">SB 572</h3>
+									<p class="goods-card__price">17 990 р.</p>
+
+									<div class="goods-card__image-wrap">
+										<img
+											class="goods-card__image"
+											src="./images/products/xs-chainsaw-1.png"
+											alt="Бензопила SB 572"
+										/>
+									</div>
+
+									<ul class="goods-card__specs">
+										<li>
+											<span>Мощность двигателя</span>
+											<strong>2.6 кВт / 3.5 л.с.</strong>
+										</li>
+										<li>
+											<span>Вес нетто</span>
+											<strong>5.5 кг</strong>
+										</li>
+									</ul>
+
+									<a class="goods-card__button" href="#">Подробнее</a>
+								</article>
+							</li>
+						</ul>
+					</div>
+
+					<div class="goods-carousel__controls">
+						<button
+							class="goods-carousel__arrow goods-carousel__arrow--prev js-goods-carousel-prev"
+							type="button"
+							aria-label="Previous slide"
+						></button>
+
+						<div class="goods-carousel__pagination-viewport">
+							<div
+								class="goods-carousel__pagination-track js-goods-carousel-pagination"
+							></div>
+						</div>
+
+						<button
+							class="goods-carousel__arrow goods-carousel__arrow--next js-goods-carousel-next"
+							type="button"
+							aria-label="Next slide"
+						></button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="where-buy" id="where-buy">
+			<div class="page-body where-buy--body">
+				<h2 class="where-buy__title">Широкая дилерская сеть по всей России</h2>
+				<p class="where-buy__subtitle">
+					Найдите ближайшего к вам авторизованного дилера VILLARTEC
+				</p>
+				<a href="#" class="btn where-buy__button">Найти дилера</a>
+			</div>
+			<div class="page-body">
+				<div class="where-buy__map">
+					<a href="#" class="where-buy__popup">
+						<span class="where-buy__region-name">Томская область</span>
+						<span class="where-buy__region-store">1 рознечный магазин</span>
+					</a>
+					<!-- prettier-ignore -->
+					<!-- <here put svg-->
+				</div>
+			</div>
+		</section>
+		<section class="media-section">
+			<div class="page-body">
+				<div class="media-section__header">
+					<h2 class="media-section__title">Новости, обзоры, статьи</h2>
+
+					<a class="media-section__more" href="#">
+						Смотреть все статьи
+						<span aria-hidden="true">→</span>
+					</a>
+				</div>
+				<div class="page-body media-carousel--body">
+					<div
+						class="splide media-carousel js-media-carousel"
+						aria-label="Новости, обзоры, статьи"
+					>
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li
+									class="splide__slide media-carousel__slide media-carousel__slide--wide"
+								>
+									<article class="media-card media-card--wide">
+										<a class="media-card__link" href="#">
+											<img
+												class="media-card__image"
+												src="./images/articles/article-1.jpg"
+												alt="Обзор садового трактора VILLARTEC MR 2314SH"
+											/>
+
+											<span class="media-card__play" aria-hidden="true"></span>
+
+											<div class="media-card__content">
+												<div class="media-card__meta">
+													<span class="media-card__label">Обзор</span>
+													<time class="media-card__date" datetime="2026-05-25"
+														>25.05.2026</time
+													>
+												</div>
+
+												<h3 class="media-card__title">
+													Обзор садового трактора VILLARTEC MR 2314SH
+												</h3>
+
+												<span class="media-card__action">
+													Перейти к обзору
+													<span aria-hidden="true">→</span>
+												</span>
+											</div>
+										</a>
+									</article>
+								</li>
+								<li
+									class="splide__slide media-carousel__slide media-carousel__slide--wide"
+								>
+									<article class="media-card media-card--wide">
+										<a class="media-card__link" href="#">
+											<img
+												class="media-card__image"
+												src="./images/articles/article-2.jpg"
+												alt="Обзор садового трактора VILLARTEC MR 2314SH"
+											/>
+
+											<span class="media-card__play" aria-hidden="true"></span>
+
+											<div class="media-card__content">
+												<div class="media-card__meta">
+													<span class="media-card__label">Обзор</span>
+													<time class="media-card__date" datetime="2026-05-25"
+														>25.05.2026</time
+													>
+												</div>
+
+												<h3 class="media-card__title">
+													Обзор садового трактора VILLARTEC MR 2314SH
+												</h3>
+
+												<span class="media-card__action">
+													Перейти к обзору
+													<span aria-hidden="true">→</span>
+												</span>
+											</div>
+										</a>
+									</article>
+								</li>
+
+								<li class="splide__slide media-carousel__slide">
+									<article class="media-card">
+										<a class="media-card__link" href="#">
+											<img
+												class="media-card__image"
+												src="./images/articles/article-3.jpg"
+												alt="Новые бензопилы VILLARTEC"
+											/>
+
+											<div class="media-card__content">
+												<div class="media-card__meta">
+													<span class="media-card__label">Новость</span>
+													<time class="media-card__date" datetime="2026-05-12"
+														>12.05.2026</time
+													>
+												</div>
+
+												<h3 class="media-card__title">
+													Новые бензопилы VILLARTEC SB 402, SB 572 и SB 592
+												</h3>
+
+												<span class="media-card__action">
+													Перейти к новости
+													<span aria-hidden="true">→</span>
+												</span>
+											</div>
+										</a>
+									</article>
+								</li>
+
+								<li
+									class="splide__slide media-carousel__slide media-carousel__slide--wide"
+								>
+									<article class="media-card media-card--wide">
+										<a class="media-card__link" href="#">
+											<img
+												class="media-card__image"
+												src="./images/articles/article-4.jpg"
+												alt="Садовый трактор VILLARTEC"
+											/>
+
+											<span class="media-card__play" aria-hidden="true"></span>
+
+											<div class="media-card__content">
+												<div class="media-card__meta">
+													<span class="media-card__label">Обзор</span>
+													<time class="media-card__date" datetime="2026-05-18"
+														>18.05.2026</time
+													>
+												</div>
+
+												<h3 class="media-card__title">
+													Садовый трактор VILLARTEC MR 2308H — тест-драйв
+												</h3>
+
+												<span class="media-card__action">
+													Перейти к обзору
+													<span aria-hidden="true">→</span>
+												</span>
+											</div>
+										</a>
+									</article>
+								</li>
+
+								<li
+									class="splide__slide media-carousel__slide media-carousel__slide--wide"
+								>
+									<article class="media-card media-card--wide">
+										<a class="media-card__link" href="#">
+											<img
+												class="media-card__image"
+												src="./images/articles/article-5.jpg"
+												alt="Техника VILLARTEC"
+											/>
+
+											<div class="media-card__content">
+												<div class="media-card__meta">
+													<span class="media-card__label">Статья</span>
+													<time class="media-card__date" datetime="2026-05-08"
+														>08.05.2026</time
+													>
+												</div>
+
+												<h3 class="media-card__title">
+													Как выбрать технику для ухода за участком
+												</h3>
+
+												<span class="media-card__action">
+													Перейти к статье
+													<span aria-hidden="true">→</span>
+												</span>
+											</div>
+										</a>
+									</article>
+								</li>
+							</ul>
+						</div>
+
+						<div class="media-carousel__controls">
+							<button
+								class="media-carousel__arrow media-carousel__arrow--prev js-media-carousel-prev"
+								type="button"
+								aria-label="Previous slide"
+							></button>
+
+							<div class="media-carousel__pagination-viewport">
+								<div
+									class="media-carousel__pagination-track js-media-carousel-pagination"
+								></div>
+							</div>
+
+							<button
+								class="media-carousel__arrow media-carousel__arrow--next js-media-carousel-next"
+								type="button"
+								aria-label="Next slide"
+							></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-brand">
+			<div class="about-brand__image">
+				<img src="./images/brands/971h679.jpg" alt="" />
+			</div>
+			<div class="about-brand__content">
+				<div class="about-brand__content-text">
+					<h2>О бренде</h2>
+					<p>
+						VILLARTEC – это бренд надежной садовой, лесной, сельскохозяйственной
+						и строительной техники, созданный опытными лидерами рынка. Более 20
+						лет наша команда занималась импортом и дистрибуцией в РФ премиальной
+						немецкой марки, которую хорошо знают во всем мире. В 2022 году мы
+						осознали необходимость взять на себя лидерство и бросить вызов самим
+						себе, создав первый российский бренд со стандартами дистрибуции,
+						продаж и сервиса, не уступающими мировым лидерам рынка. Мы направили
+						все наработанные за десятки лет компетенции, опыт и инфраструктуру в
+						создание российского бренда-наследника. VILLARTEC предлагает вам
+						только надежную и удобную технику от заводов, чья продукция уже
+						успешно продается, в том числе, на рынках стран ЕС и США под марками
+						ведущих мировых брендов.
+					</p>
+					<p>
+						Мы знаем точно, что понятие «надежная техника» должно означать не
+						только высокое качество сборки и комплектующих, но также и,
+						обязательно, широкую сеть квалифицированных сервисных центров с
+						опытными мастерами в каждом регионе присутствия и безусловную
+						доступность запчастей. Именно эти принципы позволили нам в прошлом
+						выстроить сильнейшую на рынке сеть авторизованных дилеров по всей
+						стране, в тесном взаимодействии с которыми мы теперь развиваем бренд
+						VILLARTEC.
+					</p>
+					<p>
+						Мы всегда рядом, чтобы ваша техника VILLARTEC прослужила вам долгие
+						годы!
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="diller-section" tabindex="-1">
+			<div class="page-body">
+				<h2>Станьте дилером компании VILLARTEC</h2>
+				<div class="diller-section__text">
+					Заполните форму, мы свяжемся с вами и обсудим подробнее
+				</div>
+				<div class="diller-section__btn">
+					<button
+						class="btn btn--transparent diller__btn js-diller-modal-open"
+						type="button"
+						aria-haspopup="dialog"
+						aria-controls="diller-modal"
+					>
+						<span class="js-diller-btn-text">Стать дилером</span>
+					</button>
+				</div>
+				<p
+					class="diller-section__status js-diller-section-status"
+					role="status"
+					aria-live="polite"
+				></p>
+			</div>
+		</section>
+
+		<!-- Модальное окно дилерской заявки: использует общий .mobile-menu-overlay -->
+		<div
+			class="diller-modal js-diller-modal"
+			id="diller-modal"
+			aria-hidden="true"
+			inert
+		>
+			<div
+				class="diller-modal__dialog"
+				role="dialog"
+				aria-modal="true"
+				aria-labelledby="diller-modal-title"
+				tabindex="-1"
+			>
+				<button
+					class="diller-modal__close js-diller-modal-close"
+					type="button"
+					aria-label="Закрыть форму"
+				></button>
+				<h2 class="diller-modal__title" id="diller-modal-title">
+					Что вы планируете открыть?
+				</h2>
+				<!-- DEMO: замените data-demo="true" и action="#" на реальный адрес обработчика -->
+				<form
+					class="diller-modal__form js-diller-modal-form"
+					action="#"
+					method="post"
+					data-demo="true"
+					novalidate
+				>
+					<div class="diller-modal__grid">
+						<div class="diller-modal__column">
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<select
+									name="business_type"
+									aria-label="Что вы планируете открыть?"
+									required
+								>
+									<option value="" disabled selected>
+										Что вы планируете открыть?
+									</option>
+									<option value="store">Магазин</option>
+									<option value="service">Сервисный центр</option>
+									<option value="store_service">
+										Магазин и сервисный центр
+									</option>
+								</select>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="text"
+									name="region"
+									placeholder="Введите регион *"
+									aria-label="Регион"
+									autocomplete="address-level1"
+									required
+								/>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="text"
+									name="city"
+									placeholder="Введите город/населённый пункт *"
+									aria-label="Город или населённый пункт"
+									autocomplete="address-level2"
+									required
+								/>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="text"
+									name="address"
+									placeholder="Адрес магазина/сервисного центра"
+									aria-label="Адрес магазина или сервисного центра"
+									autocomplete="street-address"
+								/>
+							</label>
+							<fieldset class="diller-modal__radio-group">
+								<legend>Имеется ли у вас ремонтная мастерская?</legend>
+								<label class="diller-modal__radio-option">
+									<input
+										type="radio"
+										name="has_workshop"
+										value="yes"
+										checked
+										required
+									/>
+									<span>Да</span>
+								</label>
+								<label class="diller-modal__radio-option">
+									<input type="radio" name="has_workshop" value="no" />
+									<span>Нет</span>
+								</label>
+							</fieldset>
+							<label class="contacts-form__agree diller-modal__agree">
+								<input type="checkbox" name="agreement" value="yes" required />
+								<span>
+									Я ознакомлен и принимаю условия
+									<a
+										href="https://villartec.ru/privacy"
+										target="_blank"
+										rel="noopener noreferrer"
+										>Политики конфиденциальности</a
+									>
+									и соглашаюсь на
+									<a
+										href="https://villartec.ru/terms"
+										target="_blank"
+										rel="noopener noreferrer"
+										>Обработку персональных данных</a
+									>
+								</span>
+							</label>
+						</div>
+						<div class="diller-modal__column">
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="text"
+									name="full_name"
+									placeholder="Введите ваше ФИО *"
+									aria-label="Фамилия, имя и отчество"
+									autocomplete="name"
+									required
+								/>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="email"
+									name="email"
+									placeholder="Ваш e-mail *"
+									aria-label="Электронная почта"
+									autocomplete="email"
+									required
+								/>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="tel"
+									name="phone"
+									placeholder="Ваш телефон *"
+									aria-label="Номер телефона"
+									autocomplete="tel"
+									inputmode="tel"
+									required
+								/>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="text"
+									name="company"
+									placeholder="Наименование организации"
+									aria-label="Наименование организации"
+									autocomplete="organization"
+								/>
+							</label>
+							<label
+								class="input-field contacts-form__field diller-modal__field"
+							>
+								<input
+									type="text"
+									name="inn"
+									placeholder="ИНН организации"
+									aria-label="ИНН организации"
+									inputmode="numeric"
+									pattern="[0-9]{10}|[0-9]{12}"
+									title="ИНН должен содержать 10 или 12 цифр"
+								/>
+							</label>
+						</div>
+					</div>
+					<p class="diller-modal__error js-diller-modal-error" role="alert"></p>
+					<button class="btn diller-modal__submit" type="submit">
+						Отправить заявку
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<section class="question-section">
+			<div class="question-section__form">
+				<h2>Остались вопросы? Напишите нам</h2>
+				<div class="question-section__form-block">
+					<form class="contacts-form" action="#">
+						<div class="contacts-form__grid">
+							<label
+								class="input-field contacts-form__field contacts-form__field--textarea"
+							>
+								<textarea name="question" placeholder="Ваш вопрос *"></textarea>
+							</label>
+
+							<div class="contacts-form__right">
+								<label class="input-field contacts-form__field">
+									<input type="tel" name="phone" placeholder="Ваш телефон *" />
+								</label>
+
+								<label class="input-field contacts-form__field">
+									<input type="email" name="email" placeholder="Ваш e-mail *" />
+								</label>
+
+								<label class="contacts-form__agree">
+									<input type="checkbox" name="agreement" />
+									<span>
+										Я ознакомлен и принимаю условия
+										<a
+											href="https://villartec.ru/privacy"
+											target="_blank"
+											rel="noopener noreferrer"
+											>Политики конфиденциальности</a
+										>
+										и соглашаюсь на
+										<a
+											href="https://villartec.ru/terms"
+											target="_blank"
+											rel="noopener noreferrer"
+											>Обработку персональных данных</a
+										>
+									</span>
+								</label>
+							</div>
+						</div>
+						 
+						<div class="contacts-form__btn-block">
+							<a href="#" class="btn contacts-form__btn">Отправить вопрос</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="question-section__image">
+				<img
+					src="./images/questions/1000h750Voprosi-1200x900-jpg.webp"
+					alt=""
+				/>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="page-body footer-main">
+				<div class="footer-contacts">
+					<a
+						class="footer-contacts__logo"
+						href="./index.html"
+						aria-label="Villartec homepage"
+					>
+						<svg viewBox="0 0 200 17" aria-hidden="true">
+							<use href="#logo"></use>
+						</svg>
+					</a>
+
+					<div class="footer-contacts__company">
+						<p>ООО «ФЛАГМАН»</p>
+						<p>ИНН: 7802694814</p>
+						<p>ОГРН: 119784717929</p>
+					</div>
+
+					<div class="footer-contacts__email">
+						<span>E-mail для обращений:</span>
+						<a href="mailto:info@villartec.ru">info@villartec.ru</a>
+					</div>
+
+					<ul class="footer-socials" aria-label="Социальные сети">
+						<li>
+							<a
+								href="https://vk.com/villartec"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="VK"
+							>
+								<svg aria-hidden="true">
+									<use href="#social-vk"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li>
+							<a
+								href="#"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="YouTube"
+							>
+								<svg aria-hidden="true">
+									<use href="#social-youtube"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li>
+							<a
+								href="#"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Telegram"
+							>
+								<svg aria-hidden="true">
+									<use href="#social-telegram"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li>
+							<a
+								href="#"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Дзен"
+							>
+								<svg aria-hidden="true">
+									<use href="#social-dzen"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li>
+							<a
+								href="#"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="OK"
+							>
+								<svg aria-hidden="true">
+									<use href="#social-ok"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li>
+							<a
+								href="#"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Rutube"
+							>
+								<svg aria-hidden="true">
+									<use href="#social-rutube"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<nav
+					class="footer-catalog mobile-menu-catalog"
+					aria-label="Каталог в футере"
+				>
+					<h2 class="footer-catalog__title">Каталог</h2>
+
+					<div class="mobile-menu-catalog__columns footer-catalog__columns">
+						<ul class="mobile-menu-catalog__sublist footer-catalog__column">
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Аккумуляторная техника</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аккумуляторные пилы</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аккумуляторные триммеры</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аккумуляторные газонокосилки</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title">Цепные пилы</span>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Бензопилы</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Электропилы</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аккумуляторные пилы</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#"
+									>Роботы-газонокосилки</a
+								>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Мотокосы и триммеры</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Бензиновые триммеры</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Электрические триммеры</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аккумуляторные триммеры</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title">Газонокосилки</span>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Газонокосилки бензиновые</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Газонокосилки аккумуляторные</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Газонокосилки электрические</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аэраторы</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#"
+									>Мойки высокого давления</a
+								>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#">Мотопомпы</a>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Ручные инструменты</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Ручные инструменты</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Садовый инвентарь</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#"
+									>Газонокосилки с сиденьем</a
+								>
+							</li>
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Ножницы и секаторы</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Мотоножницы</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Секаторы</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title">Снегоуборщики</span>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Снегоуборщики бензиновые</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Снегоуборщики аккумуляторные</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title">Воздуходувки</span>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Воздуходувки бензиновые</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Воздуходувки аккумуляторные</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Воздуходувки электрические</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#">Подметальные машины</a>
+							</li>
+						</ul>
+
+						<ul class="mobile-menu-catalog__sublist footer-catalog__column">
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#">Дровоколы</a>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Деревообрабатывающие станки</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#">Станки</a>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Оснастка</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#">Двигатели</a>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#"
+									>Моторные и адгезионные масла</a
+								>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Расходные материалы</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Косильная гарнитура</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Пильная гарнитура</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Аксессуары</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#"
+									>Средства защиты и аксессуары</a
+								>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#">Думперы</a>
+							</li>
+
+							<li class="footer-catalog__item">
+								<a class="footer-catalog__link" href="#"
+									>Измельчители садовые</a
+								>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title">Опрыскиватели</span>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Опрыскиватели аккумуляторные</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Опрыскиватели ранцевые</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Мотоблоки и культиваторы</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Мотоблоки</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Культиваторы</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Генераторы бензиновые</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Инверторные генераторы</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Сварочные генераторы</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li
+								class="mobile-menu-catalog__subitem footer-catalog__item js-catalog-item"
+							>
+								<button
+									class="mobile-menu-catalog__trigger mobile-menu-catalog__trigger--level-2 footer-catalog__trigger js-catalog-trigger"
+									type="button"
+									aria-expanded="false"
+								>
+									<span class="mobile-menu-catalog__title"
+										>Строительные инструменты</span
+									>
+									<span
+										class="mobile-menu-catalog__arrow"
+										aria-hidden="true"
+									></span>
+								</button>
+
+								<div class="mobile-menu-catalog__panel js-catalog-panel">
+									<div class="mobile-menu-catalog__panel-inner">
+										<ul
+											class="mobile-menu-catalog__third-list footer-catalog__third-list"
+										>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Бензорезы</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Виброплиты</a
+												>
+											</li>
+											<li>
+												<a class="mobile-menu-catalog__leaf" href="#"
+													>Строительная техника</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<nav class="footer-nav" aria-label="Навигация в футере">
+					<ul class="footer-nav__list">
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Где купить</a></li>
+						<li><a href="#">Новости и статьи</a></li>
+						<li><a href="#">Гарантия и сервис</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="page-body footer-bottom">
+				<ul class="footer-bottom__links">
+					<li><a href="#">Политика Cookies</a></li>
+					<li><a href="#">Согласие на получение рекламы</a></li>
+					<li><a href="#">Политика конфиденциальности</a></li>
+					<li><a href="#">Согласие на обработку персональных данных</a></li>
+				</ul>
+
+				<p class="footer-bottom__copyright">© VILLARTEC, 2026</p>
+
+				<p class="footer-bottom__dev">
+					Разработка и продвижение сайта -
+					<a href="#">Lum.ru</a>
+				</p>
+			</div>
+			<div class="footer-bottom__info">
+				Информация на сайте носит ознакомительный характер и не является
+				публичной офертой, определяемой положениями статьи 437 Гражданского
+				кодекса РФ.
+			</div>
+		</footer>
+
+		<!-- Общая корзина: один экземпляр на всех страницах сайта -->
+		<button
+			class="cart-toggle js-cart-toggle"
+			type="button"
+			aria-label="Открыть корзину"
+			aria-controls="site-cart"
+			aria-expanded="false"
+		>
+			<svg viewBox="0 0 36 36" aria-hidden="true">
+				<path
+					d="M3 6h4.5c3.4 0 5.2 2.3 5.6 5.5l1 11c.3 3 2.4 4.6 5.3 4.6h7c3 0 4.7-1.6 5.3-4.3l2.1-10.4c.3-1.7-.8-3-2.5-3H13"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.8"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+				<circle
+					cx="19"
+					cy="32.5"
+					r="2.1"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.8"
+				/>
+				<circle
+					cx="29"
+					cy="32.5"
+					r="2.1"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.8"
+				/>
+			</svg>
+
+			<span class="cart-toggle__count js-cart-count" hidden>0</span>
+		</button>
+
+		<aside
+			class="cart js-cart"
+			id="site-cart"
+			role="dialog"
+			aria-modal="true"
+			aria-labelledby="cart-title"
+			aria-hidden="true"
+			inert
+		>
+			<div class="cart__header">
+				<div class="cart__header-main">
+					<h2 class="cart__title" id="cart-title">Корзина</h2>
+					<button
+						class="cart__close js-cart-close"
+						type="button"
+						aria-label="Закрыть корзину"
+					>
+						<svg viewBox="0 0 24 24" aria-hidden="true">
+							<path d="M18 6 6 18M6 6l12 12" />
+						</svg>
+					</button>
+				</div>
+				<div class="cart__steps" aria-hidden="true">
+					<span class="is-active"></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+			<div class="cart__body">
+				<button class="cart__clear js-cart-clear" type="button" hidden>
+					<svg viewBox="0 0 24 24" aria-hidden="true">
+						<path d="M3 6h18M8 6V4h8v2M6 6l1 15h10l1-15M10 10v7M14 10v7" />
+					</svg>
+					Очистить корзину
+				</button>
+				<p class="cart__empty js-cart-empty">В корзине пока нет товаров.</p>
+				<ul
+					class="cart__items js-cart-items"
+					aria-label="Товары в корзине"
+				></ul>
+			</div>
+
+			<div class="cart__footer">
+				<div class="cart__total">
+					<span>Сумма заказа:</span>
+					<strong class="js-cart-total" aria-live="polite">0 руб.</strong>
+				</div>
+				<p class="cart__disclaimer">
+					Цены на сайте не являются публичной офертой, определяемой положениями
+					ст. 437 ГК РФ. Итоговую стоимость сообщит представитель выбранного
+					вами магазина при обработке заказа.
+				</p>
+				<a
+					class="btn cart__checkout js-cart-checkout"
+					href="./index.html#where-buy"
+				>
+					Выбрать магазин
+				</a>
+			</div>
+		</aside>
+
+		<div class="mobile-menu-overlay"></div>
+
+		<svg class="svg-sprite" aria-hidden="true" focusable="false">
+			<symbol
+				id="logo"
+				viewBox="0 0 200 17"
+				preserveAspectRatio="xMidYMid meet"
+			>
+				<path
+					preserveAspectRatio="xMidYMid meet"
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M187.93 1.90191C183.076 2.62216 179.671 5.1536 178.564 8.86425C177.492 12.4575 178.85 15.0622 182.533 16.4802C184.435 17.2125 190.249 17.1606 192.656 16.3904C195.052 15.6233 197.503 13.9988 198.481 12.5289C199.928 10.3558 199.999 10.4307 196.474 10.4307C194.023 10.4307 193.328 10.5118 193.215 10.811C192.901 11.6439 190.687 12.641 188.855 12.7744C185.571 13.0138 184.184 12.0469 184.443 9.70004C184.861 5.92735 191.486 4.38682 193.548 7.58288L194.189 8.57513L197.094 8.49998L200 8.42482L199.985 7.17876C199.938 3.25388 194.591 0.913669 187.93 1.90191ZM42.5381 1.94524C42.5381 1.98535 43.1291 5.32237 43.8514 9.36091C44.5737 13.3995 45.1646 16.7365 45.1646 16.7766C45.1646 16.8167 47.1624 16.8496 49.6043 16.8496H54.044L58.6002 9.71876C61.1062 5.79656 63.2511 2.42665 63.3666 2.23007C63.5374 1.93882 62.9642 1.87222 60.293 1.87222H57.0093L53.9402 7.08756C52.2524 9.95599 50.7857 12.3029 50.6814 12.3029C50.5769 12.3029 50.2331 10.2868 49.9174 7.82305C49.6014 5.35901 49.2799 3.01211 49.203 2.60772L49.0627 1.87222H45.8005C44.0061 1.87222 42.5381 1.90512 42.5381 1.94524ZM62.9884 9.29405L61.2875 16.7159L64.1609 16.7918C65.7416 16.8335 67.0719 16.8301 67.1173 16.7838C67.1625 16.7375 67.9171 13.5741 68.7941 9.75407C69.6709 5.93376 70.4536 2.59782 70.5329 2.34026C70.6648 1.91314 70.415 1.87222 67.6836 1.87222H64.6894L62.9884 9.29405ZM72.6567 2.07281C72.5002 2.33946 69.3289 16.1224 69.3289 16.5361C69.3289 16.7811 70.9776 16.8413 76.2065 16.7873L83.0841 16.7159L83.3851 15.5123C83.5506 14.8504 83.7673 13.978 83.8669 13.5733L84.0476 12.8378H80.1027C77.1206 12.8378 76.1587 12.7562 76.1608 12.5035C76.1624 12.3197 76.6347 10.1232 77.2101 7.62246C77.7859 5.12178 78.3188 2.8051 78.3944 2.47399C78.5305 1.87811 78.504 1.87222 75.6531 1.87222C74.0698 1.87222 72.7214 1.96262 72.6567 2.07281ZM87.8779 2.34026C87.8035 2.59782 87.0789 5.75698 86.2675 9.36091C85.4559 12.9648 84.7323 16.1243 84.6595 16.3816C84.5361 16.8188 84.9831 16.8496 91.4736 16.8496H98.4198L98.8455 15.1229C99.0798 14.1735 99.2716 13.2708 99.2716 13.117C99.2716 12.9354 97.8934 12.8378 95.3268 12.8378H91.3819L91.5188 12.236C91.5942 11.9052 92.1281 9.60911 92.7057 7.13356C93.2833 4.65828 93.7558 2.46196 93.7558 2.25254C93.7558 1.94684 93.1922 1.87222 90.8842 1.87222C88.3761 1.87222 87.9958 1.93133 87.8779 2.34026ZM107.841 2.47399C107.636 2.8051 106.175 5.18195 104.594 7.75619C103.013 10.3304 101.109 13.4294 100.362 14.6431L99.0052 16.8496H102.231H105.456L105.951 15.9135L106.446 14.9774H109.819H113.192V15.9135V16.8496H116.48C119.756 16.8496 119.768 16.8472 119.632 16.2478C119.497 15.6546 117.395 2.2726 117.395 2.00835C117.395 1.93347 115.329 1.87222 112.804 1.87222C108.329 1.87222 108.204 1.88747 107.841 2.47399ZM124.224 1.96396C124.224 2.11453 121.064 15.8745 120.913 16.3816C120.786 16.8081 121.038 16.8496 123.762 16.8496H126.75L127.266 14.6431C127.978 11.603 128.286 11.5952 130.814 14.554L132.76 16.8311L136.437 16.8279L140.114 16.825L137.893 14.6808C136.143 12.9913 135.753 12.4845 136.054 12.2903C136.265 12.1547 136.674 12.0392 136.963 12.0336C138.848 11.998 141.353 9.76236 141.984 7.55239C142.483 5.80646 142.307 4.58981 141.397 3.48924C140.231 2.07736 138.929 1.87222 131.136 1.87222C127.334 1.87222 124.224 1.91341 124.224 1.96396ZM143.683 3.41008C143.506 4.25576 143.301 5.15842 143.23 5.41598C143.112 5.84069 143.357 5.88402 145.875 5.88402C148.031 5.88402 148.651 5.96479 148.651 6.24508C148.651 6.58822 146.688 15.3936 146.392 16.3816C146.264 16.8084 146.516 16.8496 149.245 16.8496H152.238L152.548 15.4455C152.718 14.6731 153.282 12.2061 153.8 9.96268L154.742 5.88402H157.574H160.406L160.832 4.15734C161.066 3.20788 161.258 2.30523 161.258 2.15144C161.258 1.96316 158.453 1.87222 152.632 1.87222H144.006L143.683 3.41008ZM162.472 2.34026C162.398 2.59782 161.672 5.75698 160.859 9.36091C160.045 12.9648 159.322 16.1243 159.251 16.3816C159.13 16.8202 159.634 16.8496 167.25 16.8496H175.378L175.803 15.1229C176.038 14.1735 176.229 13.2708 176.229 13.117C176.229 12.9325 174.484 12.8378 171.08 12.8378C166.492 12.8378 165.947 12.7915 166.089 12.4147C166.177 12.182 166.249 11.8209 166.249 11.6123C166.249 11.2975 167.14 11.2331 171.484 11.2331H176.719L177.083 9.5615L177.448 7.88992L172.374 7.81744C167.591 7.74897 167.299 7.7158 167.299 7.2376C167.299 5.87466 167.261 5.88402 172.791 5.88402H177.963L178.291 4.26753C178.471 3.37852 178.685 2.47586 178.765 2.26163C178.892 1.92598 177.789 1.87222 170.759 1.87222C163.222 1.87222 162.597 1.90753 162.472 2.34026ZM128.983 7.07231C128.46 9.18813 128.331 9.09346 131.721 9.09346C134.591 9.09346 134.789 9.05815 135.398 8.43686C136.14 7.68237 136.224 6.90836 135.631 6.30419C135.304 5.97174 134.598 5.88402 132.247 5.88402H129.276L128.983 7.07231ZM110.172 8.49356C109.449 9.77947 108.826 10.9523 108.785 11.0994C108.74 11.2662 109.466 11.3334 110.715 11.278L112.717 11.189L112.571 10.3419C112.491 9.87576 112.346 8.74256 112.25 7.82305C112.15 6.87145 111.947 6.15227 111.779 6.15334C111.617 6.15415 110.894 7.20738 110.172 8.49356Z"
+					fill="currentColor"
+				></path>
+				<path
+					d="M4.66582 8.5585C2.10599 4.07197 0.00632312 0.307571 1.93988e-05 0.193369C-0.00654698 0.0788987 1.65475 0.0187217 3.6919 0.059642L7.3956 0.133727L10.4553 5.48279L13.5149 10.8319L17.403 10.9656L21.2908 11.0993L19.2813 13.9814L17.2717 16.8632L13.2956 16.7896L9.31981 16.7158L4.66582 8.5585Z"
+					fill="#FF5800"
+				></path>
+				<path
+					d="M16.3214 6.01769L18.4074 3.00885L20.4937 0L24.3586 0.0040118L28.2236 0.00829105L30.7551 4.48385C32.1472 6.94549 34.2983 10.735 35.5351 12.9046L37.784 16.8495H34.0141H30.2442L27.2507 11.5673L24.2575 6.28515L20.2893 6.15142L16.3214 6.01769Z"
+					fill="#FF5800"
+				></path>
+			</symbol>
+		</svg>
+		<svg class="svg-sprite" aria-hidden="true" focusable="false">
+			<symbol id="social-vk" viewBox="0 0 24 24">
+				<path
+					d="M13.05 16.98c-5.2 0-8.17-3.57-8.3-9.5h2.63c.08 4.35 2 6.2 3.5 6.58V7.48h2.48v3.75c1.48-.16 3.03-1.88 3.56-3.75h2.48c-.4 2.3-2.12 4.02-3.35 4.72 1.23.57 3.2 2.08 3.95 4.78h-2.73c-.58-1.78-2-3.15-3.91-3.35v3.35h-.31Z"
+					fill="currentColor"
+				/>
+			</symbol>
+
+			<symbol id="social-youtube" viewBox="0 0 24 24">
+				<path
+					d="M21.58 7.18a2.72 2.72 0 0 0-1.91-1.93C18 4.8 12 4.8 12 4.8s-6 0-7.67.45A2.72 2.72 0 0 0 2.42 7.18 28.3 28.3 0 0 0 2 12a28.3 28.3 0 0 0 .42 4.82 2.72 2.72 0 0 0 1.91 1.93C6 19.2 12 19.2 12 19.2s6 0 7.67-.45a2.72 2.72 0 0 0 1.91-1.93A28.3 28.3 0 0 0 22 12a28.3 28.3 0 0 0-.42-4.82ZM10 15.2V8.8l5.2 3.2L10 15.2Z"
+					fill="currentColor"
+				/>
+			</symbol>
+
+			<symbol id="social-telegram" viewBox="0 0 24 24">
+				<path
+					d="M21.72 4.24 18.56 19.1c-.24 1.05-.86 1.3-1.74.8l-4.82-3.55-2.32 2.24c-.26.26-.47.47-.96.47l.34-4.9 8.93-8.06c.39-.34-.08-.53-.6-.2L6.35 12.85 1.6 11.36c-1.03-.32-1.05-1.03.22-1.52L20.4 2.68c.86-.32 1.62.2 1.33 1.56Z"
+					fill="currentColor"
+				/>
+			</symbol>
+
+			<symbol id="social-dzen" viewBox="0 0 24 24">
+				<path
+					d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1.12 11.12c1.15 1.15 2.7 1.7 4.68 1.7h1.1c-.72 2.1-2.4 3.78-4.5 4.5v-1.1c0-1.98-.55-3.53-1.7-4.68l.42-.42Zm-2.24 0 .42.42c-1.15 1.15-1.7 2.7-1.7 4.68v1.1c-2.1-.72-3.78-2.4-4.5-4.5h1.1c1.98 0 3.53-.55 4.68-1.7Zm0-2.24c-1.15-1.15-2.7-1.7-4.68-1.7H5.1c.72-2.1 2.4-3.78 4.5-4.5v1.1c0 1.98.55 3.53 1.7 4.68l-.42.42Zm1.12 2.02a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Zm1.12-2.02-.42-.42c1.15-1.15 1.7-2.7 1.7-4.68v-1.1c2.1.72 3.78 2.4 4.5 4.5h-1.1c-1.98 0-3.53.55-4.68 1.7Z"
+					fill="currentColor"
+				/>
+			</symbol>
+
+			<symbol id="social-ok" viewBox="0 0 24 24">
+				<path
+					d="M12 12.35a4.48 4.48 0 1 0 0-8.95 4.48 4.48 0 0 0 0 8.95Zm0-6.35a1.88 1.88 0 1 1 0 3.75A1.88 1.88 0 0 1 12 6Zm5.15 8.08c.52-.52.52-1.36 0-1.88a1.33 1.33 0 0 0-1.88 0c-.8.8-1.9 1.2-3.27 1.2s-2.47-.4-3.27-1.2a1.33 1.33 0 0 0-1.88 1.88c.83.83 1.86 1.4 3.08 1.7l-2.48 2.48a1.33 1.33 0 0 0 1.88 1.88L12 17.47l2.67 2.67a1.33 1.33 0 1 0 1.88-1.88l-2.48-2.48c1.22-.3 2.25-.87 3.08-1.7Z"
+					fill="currentColor"
+				/>
+			</symbol>
+
+			<symbol id="social-rutube" viewBox="0 0 24 24">
+				<path
+					d="M4 5.2C4 4.54 4.54 4 5.2 4h13.6c.66 0 1.2.54 1.2 1.2v13.6c0 .66-.54 1.2-1.2 1.2H5.2c-.66 0-1.2-.54-1.2-1.2V5.2Zm4.2 3.1v7.4h2.05v-2.25h2.35l1.35 2.25h2.35l-1.6-2.58c.95-.37 1.5-1.18 1.5-2.32 0-1.6-1.12-2.5-3.05-2.5H8.2Zm2.05 1.72h2.72c.74 0 1.12.3 1.12.87 0 .58-.38.9-1.12.9h-2.72v-1.77Z"
+					fill="currentColor"
+				/>
+			</symbol>
+		</svg>
+	</body>
+</html>

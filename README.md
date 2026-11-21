@@ -22,6 +22,7 @@ Responsive website built with HTML5, SCSS/CSS and vanilla JavaScript. An indepen
 - Product cards and interactive sliders
 - News and articles carousel
 - Search interface with suggestions
+- Interactive dealer map with region highlighting and information popups
 - Dealer application modal with client-side validation
 - Sliding shopping cart interface (work in progress)
 - Responsive footer and contact form

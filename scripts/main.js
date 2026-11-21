@@ -571,7 +571,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			});
 		}
 	});
-	initWhereBuyMap();
 
 	// carousel wirh diferens blocks
 	function initMediaCarousels() {
